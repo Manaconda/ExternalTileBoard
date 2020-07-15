@@ -14,7 +14,7 @@ docker volume create --driver local \
     --opt type=none \
     --opt device=<path on host> \
     --opt o=bind \
-    <name of volume?
+    <name of volume>
 
 docker run -d -p 80:80 -v <volumename>:/usr/local/apache2/htdocs/tileboard rooster791/externaltileboard:latest
 
